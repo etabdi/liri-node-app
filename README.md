@@ -8,8 +8,8 @@ The Commands are
  - movie-this
  - do-what-it-says
 
---What Each Command Should Do--
-.................................................................................................................
+**What Each Command Should Do
+
 *node liri.js spotify-this-song '<song name here>'*
 
 
