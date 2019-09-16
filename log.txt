@@ -120,3 +120,63 @@ spotify-this-song,"I Want it That Way"
 module.export =random
 spotify-this-song,"I Want it That Way"
 
+[31m.....................................................................................................................[39m
+
+Artist(s): Harry Styles
+The Song's Name: Sign of the Times
+ A Preview Link of the song from spotify: https://p.scdn.co/mp3-preview/af237206f611b722f48620ece049aff3b8650e77?cid=369a2ce7661748aaa21a01eff2615201
+Album Name: Harry Styles
+[31m.....................................................................................................................[39m
+
+Artist(s): Lil Wayne
+The Song's Name: Scared of the Dark (feat. XXXTENTACION)
+ A Preview Link of the song from spotify: null
+Album Name: Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)
+[31m.....................................................................................................................[39m
+
+Artist(s): Ty Dolla $ign
+The Song's Name: Or Nah (feat. The Weeknd, Wiz Khalifa & DJ Mustard) - Remix
+ A Preview Link of the song from spotify: https://p.scdn.co/mp3-preview/70f126c139847335bc03c756c55b80c99892268e?cid=369a2ce7661748aaa21a01eff2615201
+Album Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
+[31m.....................................................................................................................[39m
+
+Artist(s): Ace of Base
+The Song's Name: The Sign
+ A Preview Link of the song from spotify: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=369a2ce7661748aaa21a01eff2615201
+Album Name: The Sign (US Album) [Remastered]
+[31m.....................................................................................................................[39m
+
+Artist(s): Dreamville
+The Song's Name: Got Me (with Ari Lennox & Omen feat. Ty Dolla $ign & Dreezy)
+ A Preview Link of the song from spotify: null
+Album Name: Revenge Of The Dreamers III
+[94m.....................................................................................................................[39m
+
+Movie Title: Mr. Nobody
+Year of Release: 2009
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 66%
+Country where the movie Produced: Belgium, Germany, Canada, France, USA, UK
+Language of the movie: English, Mohawk
+Plot of the movie: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors in the movie: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+[33m.....................................................................................................................[39m
+
+Name of the venue: CIRCUS TOKYO
+Venue Location: 東京都
+Date of the Event: NaN
+[33m.....................................................................................................................[39m
+
+Name of the venue: Ancienne Belgique
+Venue Location: Brussels
+Date of the Event: NaN
+[33m.....................................................................................................................[39m
+
+Name of the venue: CIRCUS TOKYO
+Venue Location: 東京都
+Date of the Event: NaN
+[33m.....................................................................................................................[39m
+
+Name of the venue: CIRCUS TOKYO
+Venue Location: 東京都
+Date of the Event: NaN

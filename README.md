@@ -20,6 +20,8 @@ The Commands are
      Venue location
      Date of the Event ("MM/DD/YYYY")
 
+     (images\concert-this.JPG)
+
 ### node liri.js spotify-this-song 'song name here'
 
    This will show the following information about the song in user terminal/bash window
@@ -29,6 +31,8 @@ The Commands are
       A preview link of the song from Spotify
       The album that the song is from
       If no song is provided then your program will default to "The Sign" by Ace of Base.
+
+      (images\images\spotify-this-song.JPG)
 
 ### node liri.js movie-this 'movie name here'
  
@@ -44,7 +48,7 @@ The Commands are
        Actors in the movie.
        
    If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
-        ![GitHub Logo](/images/logo.png)
+        (images\images\movie-this.JPG)
   
 
 ### node liri.js do-what-it-says
