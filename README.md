@@ -20,8 +20,8 @@ The Commands are
      Venue location
      Date of the Event ("MM/DD/YYYY")
 
-    ![GitHub Logo](images/concert-this.JPG)
-Format: ![Alt Text](url) (images/concert-this.JPG)
+    ![GitHub Logo](images/concert-this.png)
+Format: ![Alt Text](url) (images/concert-this.png)
 
 ### node liri.js spotify-this-song 'song name here'
 
@@ -33,7 +33,7 @@ Format: ![Alt Text](url) (images/concert-this.JPG)
       The album that the song is from
       If no song is provided then your program will default to "The Sign" by Ace of Base.
 
-      (images\images\spotify-this-song.JPG)
+      (images\images\spotify-this-song.png)
 
 ### node liri.js movie-this 'movie name here'
  
@@ -49,7 +49,7 @@ Format: ![Alt Text](url) (images/concert-this.JPG)
        Actors in the movie.
        
    If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
-        (images\images\movie-this.JPG)
+        (images\images\movie-this.png)
   
 
 ### node liri.js do-what-it-says
