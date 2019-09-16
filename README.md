@@ -8,9 +8,9 @@ The Commands are
  - movie-this
  - do-what-it-says
 
-#What Each Command Do
+# What Each Command Do
 
-###node liri.js spotify-this-song '<song name here>'
+### node liri.js spotify-this-song '<song name here>'
 
    This will show the following information about the song in user terminal/bash window
      - Artist(s)
@@ -19,7 +19,7 @@ The Commands are
      - The album that the song is from
      - If no song is provided then your program will default to "The Sign" by Ace of Base.
 
-###node liri.js movie-this '<movie name here>'
+### node liri.js movie-this '<movie name here>'
  
  This will output the following information to user terminal/bash window:
  
@@ -35,15 +35,15 @@ The Commands are
         ![GitHub Logo](/images/logo.png)
     Format: ![Alt Text](url)
 
-###node liri.js do-what-it-says
+### node liri.js do-what-it-says
 
          Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
         It will run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 
 
-_N.B each command you run to the log.txt file._
+_ N.B each command you run to the log.txt file. _
 
-   ##TECHNOLOGIES USED
+   ## TECHNOLOGIES USED
 
       - Node-Spotify-API
       - Axios to grab data from the OMDB API and the Bands In Town API
