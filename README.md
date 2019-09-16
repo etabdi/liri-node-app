@@ -20,8 +20,8 @@ The Commands are
      Venue location
      Date of the Event ("MM/DD/YYYY")
 
-    ![GitHub Logo]((\images\concert-this.JPG))
-Format: ![Alt Text](url) (images\concert-this.JPG)
+    ![GitHub Logo](/images/concert-this.JPG)
+Format: ![Alt Text](url) (images/concert-this.JPG)
 
 ### node liri.js spotify-this-song 'song name here'
 
