@@ -1,16 +1,15 @@
 # liri-node-app
 
- LIRI will is command line node app that takes in parameters and gives you back data.LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. It take fore command options;
+ LIRI is command line node app that takes in parameters and gives back data.LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. It take four command options;
 
 The Commands are
-  concert-this
-  spotify-this-song
-  movie-this
-  do-what-it-says
+ - concert-this
+ - spotify-this-song
+ - movie-this
+ - do-what-it-says
 
 --What Each Command Should Do--
-
-
+.................................................................................................................
 *node liri.js spotify-this-song '<song name here>'*
 
 
@@ -42,7 +41,7 @@ Edit the text in random.txt to test out the feature for movie-this and concert-t
 
 To retrieve the data that will power this app, 
 I used axios package to the Bands in Town, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
-
+................................................................................................................................
 *TECHNOLOGIES USED*
 
 Node-Spotify-API
