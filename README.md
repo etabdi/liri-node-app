@@ -14,6 +14,7 @@ The Commands are
 ### node liri.js spotify-this-song 'song name here'
 
    This will show the following information about the song in user terminal/bash window
+   
       Artist(s)
       The song's name
       A preview link of the song from Spotify
@@ -24,15 +25,16 @@ The Commands are
  
  This will output the following information to user terminal/bash window:
  
-      - Title of the movie.
-      - Year the movie came out.
-      - IMDB Rating of the movie.
-      - Rotten Tomatoes Rating of the movie.
-      - Country where the movie was produced.
-      - Language of the movie.
-      - Plot of the movie.
-      - Actors in the movie.
-    -If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+       Title of the movie.
+       Year the movie came out.
+       IMDB Rating of the movie.
+       Rotten Tomatoes Rating of the movie.
+       Country where the movie was produced.
+       Language of the movie.
+       Plot of the movie.
+       Actors in the movie.
+       
+   If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
         ![GitHub Logo](/images/logo.png)
     Format: ![Alt Text](url)
 
@@ -42,20 +44,20 @@ The Commands are
         It will run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 
 
-_ N.B each command you run to the log.txt file. _
+ N.B each command you run to the log.txt file. 
 
    ## TECHNOLOGIES USED
 
-      - Node-Spotify-API
-      - Axios to grab data from the OMDB API and the Bands In Town API
-      - Moment
-      - DotEnv
-      - Javascript
-      - Nodejs
-      - Node packages:
-      - Request
-      - Moment
-      - npm check
+       Node-Spotify-API
+       Axios to grab data from the OMDB API and the Bands In Town API
+       Moment
+       DotEnv
+       Javascript
+       Nodejs
+       Node packages:
+       Request
+       Moment
+       npm check
 
 
 
