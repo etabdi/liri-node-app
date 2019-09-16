@@ -20,7 +20,7 @@ The Commands are
      Venue location
      Date of the Event ("MM/DD/YYYY")
      
-   ![GitHub Logo](/images/logo.png)
+   
 Format: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/concert-this.png)
 
 ### node liri.js spotify-this-song 'song name here'
@@ -32,8 +32,10 @@ Format: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/c
       A preview link of the song from Spotify
       The album that the song is from
       If no song is provided then your program will default to "The Sign" by Ace of Base.
-
-      ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/movie-this.png)
+      
+      
+      
+   Format: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/movie-this.png )
 
 ### node liri.js movie-this 'movie name here'
  
