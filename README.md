@@ -51,7 +51,7 @@ Conceret-this Example: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/
        Actors in the movie.
        
 
-   Move-this example: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/movie-this.png)
+   Move-this Example: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/movie-this.png)
   
  If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 ### node liri.js do-what-it-says
