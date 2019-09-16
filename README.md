@@ -13,7 +13,7 @@ The Commands are
 
 ### node liri.js concert-this 'artist/band name here'
 
- This will search the Bands in Town Artist Events from 'bandsntown' API.Will render the following information
+ This will search the Bands in Town Artist Events from 'bandsntown' API. Will render the following information
  about each event to the terminal/bash window:
 
      Name of the venue
