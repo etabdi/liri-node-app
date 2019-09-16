@@ -1,24 +1,24 @@
 # liri-node-app
 
- LIRI is command line node app that takes in parameters and gives back data.LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. It take four command options;
+ LIRI is command line node app that takes in parameters and gives back. Will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. It take four command options;
 
 The Commands are
 
-    - concert-this
-    - spotify-this-song
-    - movie-this
-    - do-what-it-says
+     concert-this
+     spotify-this-song
+     movie-this
+     do-what-it-says
 
 ## What Each Command Do
 
 ### node liri.js spotify-this-song 'song name here'
 
    This will show the following information about the song in user terminal/bash window
-     - Artist(s)
-     - The song's name
-     - A preview link of the song from Spotify
-     - The album that the song is from
-     - If no song is provided then your program will default to "The Sign" by Ace of Base.
+      Artist(s)
+      The song's name
+      A preview link of the song from Spotify
+      The album that the song is from
+      If no song is provided then your program will default to "The Sign" by Ace of Base.
 
 ### node liri.js movie-this 'movie name here'
  
