@@ -13,12 +13,12 @@ The Commands are
 
 ### node liri.js concert-this 'artist/band name here'
 
- This will search the Bands in Town Artist Events from 'bandsntown' API. Will render the following information
+ This will search the Bands in Town Artist Events from 'bandsntown' API and Will render the following information
  about each event to the terminal/bash window:
 
      Name of the venue
      Venue location
-     Date of the Event (use moment to format this as "MM/DD/YYYY")
+     Date of the Event ( "MM/DD/YYYY")
 
 ### node liri.js spotify-this-song 'song name here'
 
