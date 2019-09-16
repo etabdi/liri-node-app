@@ -57,6 +57,7 @@ The Commands are
 
 
  Each command user run result will save to log.txt file. 
+    ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/log.PNG)
 
    ## TECHNOLOGIES USED
 
