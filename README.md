@@ -34,7 +34,7 @@ The Commands are
       If no song is provided then your program will default to "The Sign" by Ace of Base.
       
       
-    Example (Using 'Spotify-this-song' command): ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/spotify-this-song.png )
+  Example (Using 'Spotify-this-song' command): ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/spotify-this-song.png )
 
 ### node liri.js movie-this 'movie name here'
  
