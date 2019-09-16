@@ -20,8 +20,8 @@ The Commands are
      Venue location
      Date of the Event ("MM/DD/YYYY")
      
-     ![GitHub Logo](/images/logo.png)
-    ![Alt Text] (https://github.com/etabdi/liri-node-app/blob/master/images/concert-this.png)
+   ![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/concert-this.png)
 
 ### node liri.js spotify-this-song 'song name here'
 
