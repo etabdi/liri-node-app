@@ -35,7 +35,7 @@ Conceret-this Example: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/
       
       
       
-   Spotify-this-song Example: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/movie-this.png )
+   Spotify-this-song Example: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/spotify-this-song.png )
 
 ### node liri.js movie-this 'movie name here'
  
