@@ -45,7 +45,7 @@ The Commands are
         It will run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 
 
- Each command user run result will be saved to the log.txt file. 
+ Each command user run result will save to log.txt file. 
 
    ## TECHNOLOGIES USED
 
