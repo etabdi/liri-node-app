@@ -15,11 +15,11 @@ const util = require('util');
 const axios = require('axios'); 
 
 var moment = require('moment');
-moment().format();
+        moment().format();
 
-var command = process.argv[2]; 
+            var command = process.argv[2]; 
 
-var value = process.argv[3]; 
+            var value = process.argv[3]; 
 
     var logFile = fs.createWriteStream('log.txt', { flags: 'a' });
     
@@ -39,20 +39,25 @@ if (command==="spotify-this-song") {
              value = "The Sign";
        }
    
-    spotify.search({ type: 'track', query: value })
+    spotify.search(
+       
+        { 
+            type: 'track', 
+            query: value 
+       
+        })
    
             .then(function(response) {
 
                      for (var i = 0; i < 5; i++) {
 
                           var spotify= 
-                    
-                       
-                          "\nArtist(s): " + response.tracks.items[i].artists[0].name + "\nThe Song's Name: " + response.tracks.items[i].name +  "\n A Preview Link of the song from spotify: " + response.tracks.items[i].preview_url + "\nAlbum Name: " + response.tracks.items[i].album.name ;                      
-                   
-                          console.log(chalk.red("....................................................................................................................."));           
-                   
-                          console.log(spotify);
+                                           
+                                    "\nArtist(s): " + response.tracks.items[i].artists[0].name + "\nThe Song's Name: " + response.tracks.items[i].name +  "\n A Preview Link of the song from spotify: " + response.tracks.items[i].preview_url + "\nAlbum Name: " + response.tracks.items[i].album.name ;                      
+                            
+                                    console.log(chalk.red("....................................................................................................................."));           
+                            
+                                    console.log(spotify);
         }
     })
 
@@ -92,17 +97,17 @@ if (command==="concert-this") {
          
         for (var i = 0; i < response.data.length; i++) {
 
-            var datetime = response.data[i].datetime;
+            var date = response.data[i].datetime;
 
-            var dateArr = datetime.split('T'); 
+            var dateArr = date.split('T'); 
             
-                var concertResults =   
+                var concert =   
 
                     "\nName of the venue: " + response.data[i].venue.name + "\nVenue Location: " + response.data[i].venue.city +"\nDate of the Event: " + moment(dateArr[0], "MM-DD-YYYY"); 
                     
                     console.log(chalk.yellow("....................................................................................................................."));
            
-                    console.log(concertResults);
+                    console.log(concert);
         }
     })
 
