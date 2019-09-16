@@ -21,7 +21,7 @@ The Commands are
      Date of the Event ("MM/DD/YYYY")
 
     ![GitHub Logo](/images/concert-this.png)
-Format: ![Alt Text](url) (images/concert-this.png)
+Format: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/concert-this.png)
 
 ### node liri.js spotify-this-song 'song name here'
 
