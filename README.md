@@ -14,23 +14,23 @@ The Commands are
 
 
 This will show the following information about the song in user terminal/bash window
-  *Artist(s)
-  *The song's name
-  *A preview link of the song from Spotify
-  *The album that the song is from
-  *If no song is provided then your program will default to "The Sign" by Ace of Base.
+  - Artist(s)
+  - The song's name
+  - A preview link of the song from Spotify
+  - The album that the song is from
+  - If no song is provided then your program will default to "The Sign" by Ace of Base.
 
 *node liri.js movie-this '<movie name here>'*
  This will output the following information to user terminal/bash window:
-  * Title of the movie.
-  * Year the movie came out.
-  * IMDB Rating of the movie.
-  * Rotten Tomatoes Rating of the movie.
-  * Country where the movie was produced.
-  * Language of the movie.
-  * Plot of the movie.
-  * Actors in the movie.
-* If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+  - Title of the movie.
+  - Year the movie came out.
+  - IMDB Rating of the movie.
+  - Rotten Tomatoes Rating of the movie.
+  - Country where the movie was produced.
+  - Language of the movie.
+  - Plot of the movie.
+  - Actors in the movie.
+-- If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 *node liri.js do-what-it-says*
      Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
@@ -41,19 +41,19 @@ Edit the text in random.txt to test out the feature for movie-this and concert-t
 
 To retrieve the data that will power this app, 
 I used axios package to the Bands in Town, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
-................................................................................................................................
-*TECHNOLOGIES USED*
 
-Node-Spotify-API
-Axios to grab data from the OMDB API and the Bands In Town API
-Moment
-DotEnv
-Javascript
-Nodejs
-Node packages:
-Request
-Moment
-npm check
+**TECHNOLOGIES USED*
+
+- Node-Spotify-API
+- Axios to grab data from the OMDB API and the Bands In Town API
+- Moment
+- DotEnv
+- Javascript
+- Nodejs
+- Node packages:
+- Request
+- Moment
+- npm check
 
 
 
