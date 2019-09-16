@@ -55,3 +55,68 @@ Country where the movie Produced: Belgium, Germany, Canada, France, USA, UK
 Language of the movie: English, Mohawk
 Plot of the movie: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
 Actors in the movie: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+[34m.....................................................................................................................[39m
+
+Movie Title: Mr. Nobody
+Year of Release: 2009
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 66%
+Country where the movie Produced: Belgium, Germany, Canada, France, USA, UK
+Language of the movie: English, Mohawk
+Plot of the movie: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors in the movie: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+[31m.....................................................................................................................[39m
+
+Artist(s): Train
+The Song's Name: Hey, Soul Sister
+ A Preview Link of the song from spotify: https://p.scdn.co/mp3-preview/29d3d8f13d8e96237d765dd61ecd0aa323776a31?cid=369a2ce7661748aaa21a01eff2615201
+Album Name: Save Me, San Francisco (Golden Gate Edition)
+[31m.....................................................................................................................[39m
+
+Artist(s): Ozzy Osbourne
+The Song's Name: Crazy Train
+ A Preview Link of the song from spotify: https://p.scdn.co/mp3-preview/a3f3a8418391439b4725f26fbb3f1b272c24bc02?cid=369a2ce7661748aaa21a01eff2615201
+Album Name: Blizzard of Ozz (Expanded Edition)
+[31m.....................................................................................................................[39m
+
+Artist(s): Train
+The Song's Name: Drops of Jupiter
+ A Preview Link of the song from spotify: https://p.scdn.co/mp3-preview/dd63090aa1fc20e712ec34f0240d25557101ba79?cid=369a2ce7661748aaa21a01eff2615201
+Album Name: Drops Of Jupiter
+[31m.....................................................................................................................[39m
+
+Artist(s): Jason Aldean
+The Song's Name: Night Train
+ A Preview Link of the song from spotify: https://p.scdn.co/mp3-preview/07a5a4eef5bda10e28b72ce53a901b81b5679e19?cid=369a2ce7661748aaa21a01eff2615201
+Album Name: Night Train
+[31m.....................................................................................................................[39m
+
+Artist(s): Yung Gravy
+The Song's Name: Gravy Train
+ A Preview Link of the song from spotify: null
+Album Name: Sensational
+[33m.....................................................................................................................[39m
+
+Name of the venue: Sail Across The Sun Cruise by Sixthman
+Venue Location: Miami
+Date of the Event: NaN
+[33m.....................................................................................................................[39m
+
+Name of the venue: Sail Across The Sun Cruise by Sixthman
+Venue Location: Miami
+Date of the Event: NaN
+[33m.....................................................................................................................[39m
+
+Name of the venue: Sail Across The Sun Cruise by Sixthman
+Venue Location: Miami
+Date of the Event: NaN
+{ [Error: ENOENT: no such file or directory, open 'C:\Users\etabd\liri-node-app\random.text']
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\etabd\\liri-node-app\\random.text' }
+null
+spotify-this-song,"I Want it That Way"
+module.export =random
+spotify-this-song,"I Want it That Way"
+

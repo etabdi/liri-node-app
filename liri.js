@@ -113,4 +113,10 @@ if (command==="concert-this") {
 
 }
 
+if (command==="do-what-it-says"){
+    var random=fs.readFileSync('random.txt', 'utf8');   
+        console.log(random);
+    
+}
+  
 
