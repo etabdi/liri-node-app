@@ -36,15 +36,16 @@ The Commands are
        
    If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
         ![GitHub Logo](/images/logo.png)
-    Format: ![Alt Text](url)
+  
 
 ### node liri.js do-what-it-says
 
-         Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
+        Using the fs Node package, LIRI will take the text inside of random.txt and then use it to 
+        call one of LIRI's commands.
         It will run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 
 
- N.B each command you run to the log.txt file. 
+ Each command user run result will be saved to the log.txt file. 
 
    ## TECHNOLOGIES USED
 
