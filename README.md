@@ -50,11 +50,10 @@ Format: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/c
        Plot of the movie.
        Actors in the movie.
        
-   If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
-       
-       ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/movie-this.png)
-  
 
+   Format: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/movie-this.png)
+  
+ If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 ### node liri.js do-what-it-says
 
         Using the fs Node package, LIRI will take the text inside of random.txt and then use it to 
