@@ -21,7 +21,7 @@ The Commands are
      Date of the Event ("MM/DD/YYYY")
      
    
-Conceret-this Example: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/concert-this.png)
+ Example (Using 'Conceret-this' command) : ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/concert-this.png)
 
 ### node liri.js spotify-this-song 'song name here'
 
@@ -34,8 +34,7 @@ Conceret-this Example: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/
       If no song is provided then your program will default to "The Sign" by Ace of Base.
       
       
-      
-   Spotify-this-song Example: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/spotify-this-song.png )
+    Example (Using 'Spotify-this-song' command): ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/spotify-this-song.png )
 
 ### node liri.js movie-this 'movie name here'
  
@@ -50,8 +49,7 @@ Conceret-this Example: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/
        Plot of the movie.
        Actors in the movie.
        
-
-   Move-this Example: ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/movie-this.png)
+Example (Using 'Move-this' command) : ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/movie-this.png)
   
  If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 ### node liri.js do-what-it-says
