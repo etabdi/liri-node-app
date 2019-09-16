@@ -8,52 +8,53 @@ The Commands are
  - movie-this
  - do-what-it-says
 
-**What Each Command Should Do
+#What Each Command Do
 
-*node liri.js spotify-this-song '<song name here>'*
+###node liri.js spotify-this-song '<song name here>'
 
+   This will show the following information about the song in user terminal/bash window
+     - Artist(s)
+     - The song's name
+     - A preview link of the song from Spotify
+     - The album that the song is from
+     - If no song is provided then your program will default to "The Sign" by Ace of Base.
 
-This will show the following information about the song in user terminal/bash window
-  - Artist(s)
-  - The song's name
-  - A preview link of the song from Spotify
-  - The album that the song is from
-  - If no song is provided then your program will default to "The Sign" by Ace of Base.
-
-*node liri.js movie-this '<movie name here>'*
+###node liri.js movie-this '<movie name here>'
+ 
  This will output the following information to user terminal/bash window:
-  - Title of the movie.
-  - Year the movie came out.
-  - IMDB Rating of the movie.
-  - Rotten Tomatoes Rating of the movie.
-  - Country where the movie was produced.
-  - Language of the movie.
-  - Plot of the movie.
-  - Actors in the movie.
--- If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+ 
+      - Title of the movie.
+      - Year the movie came out.
+      - IMDB Rating of the movie.
+      - Rotten Tomatoes Rating of the movie.
+      - Country where the movie was produced.
+      - Language of the movie.
+      - Plot of the movie.
+      - Actors in the movie.
+    -If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+        ![GitHub Logo](/images/logo.png)
+    Format: ![Alt Text](url)
 
-*node liri.js do-what-it-says*
-     Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-    It will run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
+###node liri.js do-what-it-says
+
+         Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
+        It will run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 
 
-Edit the text in random.txt to test out the feature for movie-this and concert-this.
+_N.B each command you run to the log.txt file._
 
-To retrieve the data that will power this app, 
-I used axios package to the Bands in Town, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
+   ##TECHNOLOGIES USED
 
-**TECHNOLOGIES USED*
-
-- Node-Spotify-API
-- Axios to grab data from the OMDB API and the Bands In Town API
-- Moment
-- DotEnv
-- Javascript
-- Nodejs
-- Node packages:
-- Request
-- Moment
-- npm check
+      - Node-Spotify-API
+      - Axios to grab data from the OMDB API and the Bands In Town API
+      - Moment
+      - DotEnv
+      - Javascript
+      - Nodejs
+      - Node packages:
+      - Request
+      - Moment
+      - npm check
 
 
 
