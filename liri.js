@@ -20,20 +20,7 @@ var moment = require('moment');
             var command = process.argv[2]; 
 
             var value = process.argv[3]; 
-
-    var logFile = fs.createWriteStream('log.txt', { flags: 'a' });
-    
-        var logStdout = process.stdout;
-
-            console.log = function () {
-                
-                    logFile.write(util.format.apply(null, arguments) + '\n');
-                
-                     logStdout.write(util.format.apply(null, arguments) + '\n');
-                    
-                }
-
-                
+       
 if (command==="concert-this") {
    
     axios.get("https://rest.bandsintown.com/artists/" + value + "/events?app_id=codingbootcamp")
@@ -111,5 +98,18 @@ if (command==="do-what-it-says"){
         console.log(random);
     
 }
+
+var logFile = fs.createWriteStream('log.txt', { flags: 'a' });
+    
+        var logStdout = process.stdout;
+
+            console.log = function () {
+                
+                    logFile.write(util.format.apply(null, arguments) + '\n');
+                
+                     logStdout.write(util.format.apply(null, arguments) + '\n');
+                    
+                }
+
   
 
