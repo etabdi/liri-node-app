@@ -29,7 +29,7 @@ if (command==="concert-this") {
          
         for (var i = 0; i < result.data.length; i++) {
 
-     var concert ="\nName of the venue: " + result.data[i].venue.name + "\nVenue Location: " + result.data[i].venue.city +"\nDate of the Event: " +result.data[i].datetime; 
+     var concert ="\nName of the venue: " + result.data[i].venue.name + "\nVenue Location: " + result.data[i].venue.city +"\nDate of the Event: " +moment(result.data[i].Year).format("MMM Do YY");; 
                     
                     console.log(chalk.yellow("....................................................................................................................."));
            
@@ -66,7 +66,7 @@ if (command==="concert-this") {
             })
 
         } else if (command==="movie-this") {
-6
+
                  if(!value){
 
                             value = "mr nobody"; 
