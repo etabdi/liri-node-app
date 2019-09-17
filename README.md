@@ -11,6 +11,9 @@ The Commands are
 
 ## What Each Command Do
 
+    
+[ Click here for demo video ](https://drive.google.com/file/d/1wt-6F3koRRtL6p8lXOz6FIG3O_R3Zhr6/view)
+
 ### node liri.js concert-this 'artist/band name here'
 
  This will search the Bands in Town Artist Events from 'bandsntown' API and Will render the following information
@@ -18,10 +21,8 @@ The Commands are
 
      Name of the venue
      Venue location
-     Date of the Event ("MM/DD/YYYY")
-
-    ![GitHub Logo](images/concert-this.JPG)
-Format: ![Alt Text](url) (images/concert-this.JPG)
+     Date of the Event ("MM/DD/YYYY") 
+   ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/concert-this.png)
 
 ### node liri.js spotify-this-song 'song name here'
 
@@ -31,9 +32,10 @@ Format: ![Alt Text](url) (images/concert-this.JPG)
       The song's name
       A preview link of the song from Spotify
       The album that the song is from
-      If no song is provided then your program will default to "The Sign" by Ace of Base.
-
-      (images\images\spotify-this-song.JPG)
+      
+   ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/spotify-this-song.png )
+   
+   If no song is provided then your program will default to "The Sign" by Ace of Base.
 
 ### node liri.js movie-this 'movie name here'
  
@@ -47,11 +49,9 @@ Format: ![Alt Text](url) (images/concert-this.JPG)
        Language of the movie.
        Plot of the movie.
        Actors in the movie.
-       
-   If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
-        (images\images\movie-this.JPG)
+   ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/movie-this.png)
   
-
+ If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 ### node liri.js do-what-it-says
 
         Using the fs Node package, LIRI will take the text inside of random.txt and then use it to 
@@ -60,6 +60,9 @@ Format: ![Alt Text](url) (images/concert-this.JPG)
 
 
  Each command user run result will save to log.txt file. 
+    ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/log.PNG)
+    
+
 
    ## TECHNOLOGIES USED
 
