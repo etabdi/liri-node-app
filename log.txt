@@ -1251,3 +1251,108 @@ Country where the movie Produced: Belgium, Germany, Canada, France, USA, UK
 Language of the movie: English, Mohawk
 Plot of the movie: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
 Actors in the movie: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+[33m.....................................................................................................................[39m
+
+Name of the venue: Lizard Lounge - Chameleon Club
+Venue Location: Lancaster
+Date of the Event: [object Object]
+[33m.....................................................................................................................[39m
+
+Name of the venue: Colony
+Venue Location: Woodstock
+Date of the Event: [object Object]
+[33m.....................................................................................................................[39m
+
+Name of the venue: Milkboy
+Venue Location: Philadelphia
+Date of the Event: [object Object]
+[33m.....................................................................................................................[39m
+
+Name of the venue: Gypsy Sally's
+Venue Location: Washington
+Date of the Event: [object Object]
+[33m.....................................................................................................................[39m
+
+Name of the venue: The Plowright Theatre
+Venue Location: Scunthorpe
+Date of the Event: [object Object]
+[33m.....................................................................................................................[39m
+
+Name of the venue: The Sinclair
+Venue Location: Cambridge
+Date of the Event: [object Object]
+[33m.....................................................................................................................[39m
+
+Name of the venue: UKK - Stora salen
+Venue Location: Uppsala
+Date of the Event: [object Object]
+[33m.....................................................................................................................[39m
+
+Name of the venue: Lizard Lounge - Chameleon Club
+Venue Location: Lancaster
+Date of the Event: 2019-10-25T17:30:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: Colony
+Venue Location: Woodstock
+Date of the Event: 2019-11-14T20:00:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: Milkboy
+Venue Location: Philadelphia
+Date of the Event: 2019-11-16T21:00:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: Gypsy Sally's
+Venue Location: Washington
+Date of the Event: 2019-11-17T20:00:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: The Plowright Theatre
+Venue Location: Scunthorpe
+Date of the Event: 2020-01-19T19:30:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: The Sinclair
+Venue Location: Cambridge
+Date of the Event: 2020-02-08T21:00:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: UKK - Stora salen
+Venue Location: Uppsala
+Date of the Event: 2020-03-06T19:30:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: Lizard Lounge - Chameleon Club
+Venue Location: Lancaster
+Date of the Event: 2019-10-25T17:30:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: Colony
+Venue Location: Woodstock
+Date of the Event: 2019-11-14T20:00:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: Milkboy
+Venue Location: Philadelphia
+Date of the Event: 2019-11-16T21:00:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: Gypsy Sally's
+Venue Location: Washington
+Date of the Event: 2019-11-17T20:00:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: The Plowright Theatre
+Venue Location: Scunthorpe
+Date of the Event: 2020-01-19T19:30:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: The Sinclair
+Venue Location: Cambridge
+Date of the Event: 2020-02-08T21:00:00
+[33m.....................................................................................................................[39m
+
+Name of the venue: UKK - Stora salen
+Venue Location: Uppsala
+Date of the Event: 2020-03-06T19:30:00
