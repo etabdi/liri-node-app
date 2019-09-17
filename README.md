@@ -11,6 +11,9 @@ The Commands are
 
 ## What Each Command Do
 
+    
+[ Click here for demo video ](https://drive.google.com/file/d/1wt-6F3koRRtL6p8lXOz6FIG3O_R3Zhr6/view)
+
 ### node liri.js concert-this 'artist/band name here'
 
  This will search the Bands in Town Artist Events from 'bandsntown' API and Will render the following information
@@ -59,8 +62,7 @@ The Commands are
  Each command user run result will save to log.txt file. 
     ![Alt Text](https://github.com/etabdi/liri-node-app/blob/master/images/log.PNG)
     
-    
-[ click here for demo video ](https://drive.google.com/file/d/1wt-6F3koRRtL6p8lXOz6FIG3O_R3Zhr6/view)
+
 
    ## TECHNOLOGIES USED
 
