@@ -1,8 +1,8 @@
 require('dotenv').config();
 
-var fs = require('fs');
-
 const keys = require("./keys.js");
+
+var fs = require('fs');
 
 const Spotify = require('node-spotify-api'); 
 
@@ -37,67 +37,60 @@ if (command==="concert-this") {
         }
     })
 
-}
-
-
-if (command==="spotify-this-song") {
-   
-    if(!value){
-             value = "The Sign";
-       }
-   
-    spotify.search(
-       
-        { 
-            type: 'track', 
-            query: value 
-       
-        })
-   
-            .then(function(result) {
-
-                     for (var i = 0; i < 3; i++) {
-
-                          var spotify= "\nArtist(s): " + result.tracks.items[i].artists[0].name + "\nThe Song's Name: " + result.tracks.items[i].name +  "\n A Preview Link of the song from spotify: " + result.tracks.items[i].preview_url + "\nAlbum Name: " + result.tracks.items[i].album.name ;                      
-                            
-                                    console.log(chalk.red("....................................................................................................................."));           
-                            
-                                    console.log(spotify);
-        }
-    })
-
-}
-
-if (command==="movie-this") {
-
-
-    if(!value){
-
-         value = "mr nobody"; 
+  } else if (command==="spotify-this-song") {
         
-        }
+            if(!value){
 
-      axios.get("https://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=trilogy")
-           
-            .then(function(result) {
-        
-                    var movieResults = "\nMovie Title: " + result.data.Title + "\nYear of Release: " + result.data.Year +"\nIMDB Rating: " + result.data.imdbRating +
-                                    "\nRotten Tomatoes Rating: " + result.data.Ratings[1].Value +"\nCountry where the movie Produced: " + result.data.Country +
-                                    "\nLanguage of the movie: " + result.data.Language +"\nPlot of the movie: " + result.data.Plot +"\nActors in the movie: " + result.data.Actors;
-                           
+                        value = "The Sign";
+
+                    }
+                
+                    spotify.search(
                     
-        console.log(chalk.blue("....................................................................................................................."));
-        console.log(movieResults)
+                            { 
+                                type: 'track', 
+                                query: value 
+                        
+                            })
+            
+                    .then(function(result) {
 
-    })
-     
-}
+                            for (var i = 0; i < 3; i++) {
 
-if (command==="do-what-it-says"){
-    var random=fs.readFileSync('random.txt', 'utf8');   
-        console.log(random);
-    
-}
+                                var spotify= "\nArtist(s): " + result.tracks.items[i].artists[0].name + "\nThe Song's Name: " + result.tracks.items[i].name +  "\n A Preview Link of the song from spotify: " + result.tracks.items[i].preview_url + "\nAlbum Name: " + result.tracks.items[i].album.name ;                      
+                                    
+                                            console.log(chalk.red("....................................................................................................................."));           
+                                    
+                                            console.log(spotify);
+                }
+            })
+
+        } else if (command==="movie-this") {
+6
+                 if(!value){
+
+                            value = "mr nobody"; 
+                            
+                            }
+
+                        axios.get("https://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=trilogy")
+                            
+                                .then(function(result) {
+                            
+                                        var movieResults = "\nMovie Title: " + result.data.Title + "\nYear of Release: " + result.data.Year +"\nIMDB Rating: " + result.data.imdbRating +
+                                                        "\nRotten Tomatoes Rating: " + result.data.Ratings[1].Value +"\nCountry where the movie Produced: " + result.data.Country +
+                                                        "\nLanguage of the movie: " + result.data.Language +"\nPlot of the movie: " + result.data.Plot +"\nActors in the movie: " + result.data.Actors;
+                                                                                    
+                            console.log(chalk.blue("....................................................................................................................."));
+                            console.log(movieResults)
+
+                        })
+                        
+                    } else if (command==="do-what-it-says"){
+                                    var random=fs.readFileSync('random.txt', 'utf8');   
+                                        console.log(random);
+                                    
+                                }
 
 var logFile = fs.createWriteStream('log.txt', { flags: 'a' });
     
@@ -107,9 +100,9 @@ var logFile = fs.createWriteStream('log.txt', { flags: 'a' });
                 
                     logFile.write(util.format.apply(null, arguments) + '\n');
                 
-                     logStdout.write(util.format.apply(null, arguments) + '\n');
+                    logStdout.write(util.format.apply(null, arguments) + '\n');
                     
                 }
 
-  
+            
 
