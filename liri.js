@@ -33,6 +33,26 @@ var moment = require('moment');
                     
                 }
 
+                
+if (command==="concert-this") {
+   
+    axios.get("https://rest.bandsintown.com/artists/" + value + "/events?app_id=codingbootcamp")
+  
+     .then(function(result) {   
+         
+        for (var i = 0; i < result.data.length; i++) {
+
+     var concert ="\nName of the venue: " + result.data[i].venue.name + "\nVenue Location: " + result.data[i].venue.city +"\nDate of the Event: " +result.data[i].datetime; 
+                    
+                    console.log(chalk.yellow("....................................................................................................................."));
+           
+                    console.log(concert);
+        }
+    })
+
+}
+
+
 if (command==="spotify-this-song") {
    
     if(!value){
@@ -47,13 +67,11 @@ if (command==="spotify-this-song") {
        
         })
    
-            .then(function(response) {
+            .then(function(result) {
 
-                     for (var i = 0; i < 5; i++) {
+                     for (var i = 0; i < 3; i++) {
 
-                          var spotify= 
-                                           
-                                    "\nArtist(s): " + response.tracks.items[i].artists[0].name + "\nThe Song's Name: " + response.tracks.items[i].name +  "\n A Preview Link of the song from spotify: " + response.tracks.items[i].preview_url + "\nAlbum Name: " + response.tracks.items[i].album.name ;                      
+                          var spotify= "\nArtist(s): " + result.tracks.items[i].artists[0].name + "\nThe Song's Name: " + result.tracks.items[i].name +  "\n A Preview Link of the song from spotify: " + result.tracks.items[i].preview_url + "\nAlbum Name: " + result.tracks.items[i].album.name ;                      
                             
                                     console.log(chalk.red("....................................................................................................................."));           
                             
@@ -74,12 +92,11 @@ if (command==="movie-this") {
 
       axios.get("https://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=trilogy")
            
-            .then(function(response) {
+            .then(function(result) {
         
-                    var movieResults = 
-                                    "\nMovie Title: " + response.data.Title + "\nYear of Release: " + response.data.Year +"\nIMDB Rating: " + response.data.imdbRating +
-                                    "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +"\nCountry where the movie Produced: " + response.data.Country +
-                                    "\nLanguage of the movie: " + response.data.Language +"\nPlot of the movie: " + response.data.Plot +"\nActors in the movie: " + response.data.Actors;
+                    var movieResults = "\nMovie Title: " + result.data.Title + "\nYear of Release: " + result.data.Year +"\nIMDB Rating: " + result.data.imdbRating +
+                                    "\nRotten Tomatoes Rating: " + result.data.Ratings[1].Value +"\nCountry where the movie Produced: " + result.data.Country +
+                                    "\nLanguage of the movie: " + result.data.Language +"\nPlot of the movie: " + result.data.Plot +"\nActors in the movie: " + result.data.Actors;
                            
                     
         console.log(chalk.blue("....................................................................................................................."));
@@ -87,30 +104,6 @@ if (command==="movie-this") {
 
     })
      
-}
-
-if (command==="concert-this") {
-   
-    axios.get("https://rest.bandsintown.com/artists/" + value + "/events?app_id=codingbootcamp")
-  
-     .then(function(response) {   
-         
-        for (var i = 0; i < response.data.length; i++) {
-
-            var date = response.data[i].datetime;
-
-            var dateArr = date.split('T'); 
-            
-                var concert =   
-
-                    "\nName of the venue: " + response.data[i].venue.name + "\nVenue Location: " + response.data[i].venue.city +"\nDate of the Event: " + moment(dateArr[0], "MM-DD-YYYY"); 
-                    
-                    console.log(chalk.yellow("....................................................................................................................."));
-           
-                    console.log(concert);
-        }
-    })
-
 }
 
 if (command==="do-what-it-says"){
